@@ -1,73 +1,115 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 GATE 2028 AIR-100 Revision Tracker
 
-Currently, two official plugins are available:
+### The Ultimate Preparation Operating System for GATE CSE Aspirants
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">
+  <a href="https://gate-tracker-fawn.vercel.app">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_App-8B5CF6?style=for-the-badge" />
+  </a>
+</p>
 
-## React Compiler
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18+-61DAFB?style=flat-square"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Firebase-Authentication-FFCA28?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Vite-Fast_Build-646CFF?style=flat-square"/>
+  <img src="https://img.shields.io/badge/GATE-CSE_2028-success?style=flat-square"/>
+</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🎯 Designed for Aspirants Targeting AIR < 100
 
-## Expanding the ESLint configuration
+**Track Subjects • Manage Revisions • Analyze Progress • Stay Consistent**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+[Live Demo](https://gate-tracker-fawn.vercel.app)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+</div>
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📖 Vision
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Preparing for GATE is not about watching the most lectures.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+It's about:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Remembering what you studied
+- Revising at the right intervals
+- Tracking progress consistently
+- Solving PYQs systematically
+- Maintaining discipline over multiple years
+
+Most students use spreadsheets, notebooks, and scattered apps.
+
+This platform combines everything into a single modern preparation operating system.
+
+---
+
+# 📸 Application Preview
+
+## 🔐 Authentication
+
+![Login](assets/screenshots/login.png)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](assets/screenshots/dashboard.png)
+
+---
+
+## 📚 Subject Management
+
+![Subjects](assets/screenshots/subjects.png)
+
+---
+
+## 🔄 Revision Tracker
+
+![Revision](assets/screenshots/revision.png)
+
+---
+
+## 📅 Revision Calendar
+
+![Calendar](assets/screenshots/calendar.png)
+
+---
+
+## 📈 Analytics
+
+![Analytics](assets/screenshots/analytics.png)
+
+---
+
+## 💻 DSA Tracker
+
+![DSA](assets/screenshots/dsa.png)
+
+## 🚀 Core Features
+
+### 📚 Subject Management
+Track all 13 GATE CSE subjects with detailed progress monitoring.
+
+### 🔄 Smart Revision System
+Automatically manage spaced repetition cycles for long-term retention.
+
+### 📅 Revision Calendar
+Visualize upcoming revision schedules and study patterns.
+
+### 📈 Deep Analytics
+Gain insights into preparation progress, study hours, and readiness.
+
+### 📝 PYQ Tracking
+Track Previous Year Questions and monitor coverage.
+
+### 💻 DSA Tracker
+Maintain coding consistency alongside GATE preparation.
+
+### 🔥 Motivation System
+Study streaks, goals, achievements, and progress milestones.
+
+### ☁️ Cloud Sync
+Secure login with Google Authentication and Firebase integration.
